@@ -2,10 +2,24 @@
 <head>
     <link  rel="stylesheet" type="text/css"
           th:href="@{/site.css}"/>
+    <link  rel="stylesheet" type="text/css"
+           th:href="@{/bootstrap.css}"/>
+    <script type="text/javascript" th:src="@{/jquery.js}"></script>
+    <script type="text/javascript" th:src="@{/bootstrap.js}"></script>
 </head>
 <body>
-<div id="phrase-container"></div>
-<button onClick="getPhrase()">Click here</button>
+<div class="centered">
+
+    <div class="jumbotron">
+        <h1 class="display-4">Para Dayriné, de José Luis</h1>
+        <p class="lead">Con motivo de nuestro aniversario 2.5 .</p>
+        <hr class="my-4">
+        <p id="phrase-container">Da click en el boton para empezar a mostrar frases :)</p>
+
+        <button class ="btn btn-primary" onClick="getPhrase()">Click here</button>
+    </div>
+
+</div>
 
 
 

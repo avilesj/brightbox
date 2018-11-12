@@ -3,3 +3,9 @@ body {
 background-color: white;
 
 }
+
+.centered {
+  position: fixed; /* or absolute */
+  top: 25%;
+  left: 30%;
+}
