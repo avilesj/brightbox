@@ -1,5 +1,8 @@
 package com.javiles.brightbox.repositories;
 
-public class PhraseRepository
+import com.javiles.brightbox.models.Phrase;
+
+public interface PhraseRepository
 {
+    Phrase generatePhrase();
 }
